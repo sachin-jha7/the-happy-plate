@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Happy Plate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <div class="img"></div>
+            <p class="heading">The Happy Plate</p>
+        </div>
+        <div class="nav-links">
+            <button class="cross-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px"
+                    fill="#7CA7D8">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li class="all-food"><a href="#foods">Foods</a></li>
+                <li><a href="#">Special</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+        <button class="side-bar-menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#7CA7D8">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </button>
+    </div>
+    <div class="main">
+        <div id="home" class="home">
+            <div class="left">
+                <p class="script">
+                    Serving Joy with Every Plate.
+                </p>
+                <p class="sub-script">
+                    Discover delicious bites, happy vibes, and food that warms the heart.
+                </p>
+                <a href="#menu">
+                    <button class="explore-btn">Explore Menu</button>
+                </a>
+            </div>
+            <div class="right">
+                <img src="gallery/heading img1.jpeg" alt="heading-IMG">
+            </div>
+        </div>
+        <div id="menu" class="menu">
+            <p class="menu-text">Our Menu</p>
+            <p class="menu-sub-text"><i>Swipe to explore delicious categories &rarr;</i></p>
+            <div class="card-container">
+                <div class="sweets menu-card">
+                    <a href="#sweets"><img src="gallery/sweets-logo.jpg" alt="sweets-logo"></a>
+                </div>
+                <div class="veg menu-card">
+                    <a href="#veg"><img src="gallery/Pure-veg logo.jpg" alt="veg-logo"></a>
+                </div>
+                <div class="non-veg menu-card">
+                    <a href="#non-veg"><img src="gallery/non-veg logo.jpg" alt="non-veg-logo"></a>
+                </div>
+                <div class="snacks menu-card">
+                    <a href="#snacks"><img src="gallery/snacks logo.jpg" alt="snacks-logo"></a>
+                </div>
+                <div class="pizzas menu-card">
+                    <a href="#pizaas"><img src="gallery/pizza logo.jpg" alt="pizzas-logo"></a>
+                </div>
+            </div>
+        </div>
+        <div id="foods" class="foods">
+            <div class="info-card">
+                <button class="back-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+                        fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </button>
+                <img src="gallery/sahi paneer img.jpg" alt="some-img">
+                <p class="food-info">
+                    Royal Mughalai paneer curry cooked in a creamy, mildly sweet cashew-based gravy.
+                </p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="heading">
+                <p>Our Foods</p>
+            </div>
+            <hr>
+            <div id="veg">
+                <p class="food-type">Pure Veg</p>
+                <div class="line-one">
+                    <div id="veg-biryani" class="card">
+                        <img src="gallery/paneer-biryani_img.jpg" alt="veg-biryani-img">
+                        <a href="#">Paneer Veg Biryani</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp;&#8377; 249 /-</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="paneer-butter" class="card">
+                        <img src="gallery/paneer butter masala img.jpg" alt="paner-butter-img">
+                        <a href="#">Paneer Butter Masala</a>
+                        <span>&nbsp;&nbsp;&#8377; 229 /-</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="chili-paneer" class="card">
+                        <img src="gallery/chili paneer img.jpg" alt="chili-Paneer-img">
+                        <a href="#">Chili Paneer</a>
+                        <span>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&#8377; 149 /-</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <br>
+                <div class="line-two">
+                    <div id="mix-veg" class="card">
+                        <img src="gallery/mix veg img.jpg" alt="mix-veg-img">
+                        <a href="#" class="name">Mix Veg</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377;
+                            99
+                            /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="malai-kofta" class="card">
+                        <img src="gallery/malai kofta img.jpeg" alt="malai-kofta-img">
+                        <a href="#" class="name">Malai Kofta</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 159 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="sahi-paneer" class="card">
+                        <img src="gallery/sahi paneer img.jpg" alt="sahi-paneer-img">
+                        <a href="#" class="name">Shahi Paneer</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 189 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="non-veg">
+                <p style="color: red;" class="food-type">Non Veg</p>
+                <div class="line-one">
+                    <div id="chicken-tandoori" class="card">
+                        <img src="gallery/chicken tandoori img.jpg" alt="chicken-tikka-img">
+                        <a href="#" class="name">Chicken Tandoori</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 299 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="mutton-roganjosh" class="card">
+                        <img src="gallery/mutton rogan josh.jpg" alt="Mutton-Roganjosh-img">
+                        <a href="#" class="name">Mutton Rogan Josh</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp;&#8377; 329 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="egg-curry" class="card">
+                        <img src="gallery/egg curry img.jpeg" alt="egg-curry-img">
+                        <a href="#" class="name">Egg Curry</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377;
+                            129
+                            /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <br>
+                <div class="line-two">
+                    <div id="mutton-biryani" class="card">
+                        <img src="gallery/mutton biryani img.jpg" alt="mutton-biryani-img">
+                        <a href="#" class="name">Mutton Biryani</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 329 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="fish-curry" class="card">
+                        <img src="gallery/fish curry image.jpg" alt="fish-curry-img">
+                        <a href="#" class="name">Fish Curry</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 289
+                            /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="mutton-curry" class="card">
+                        <img src="gallery/mutton curry img.jpeg" alt="mutton-curry-img">
+                        <a href="#" class="name">Mutton Curry</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 299 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sweets">
+                <p style="color: rgb(224, 156, 168);" class="food-type">Sweets</p>
+                <div class="line-one">
+                    <div id="rasmalai" class="card">
+                        <img src="gallery/rasmalai img.jpeg" alt="rasmalai-img">
+                        <a href="#" class="name">Rasmalai</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                            &nbsp;&#8377; 129 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="gajar" class="card">
+                        <img src="gallery/gajar ka halwa img.jpg" alt="gajar-img">
+                        <a href="#" class="name">Gajar Ka Halwa</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 129 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+
+                    <div id="jalebi" class="card">
+                        <img src="gallery/jalebi img.jpg" alt="jalebi-img">
+                        <a href="#" class="name">Jalebi</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp;&#8377; 49 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <br>
+                <div class="line-two">
+                    <div id="kala-jamun" class="card">
+                        <img src="gallery/kala jamun.jpg" alt="kala-jamun-img">
+                        <a href="#" class="name">Kala Jamun</a>
+                        <span>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 119
+                            /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="rasgulla" class="card">
+                        <img src="gallery/rash gulla img.jpg" alt="ras-gulla-img">
+                        <a href="#" class="name">Rasgulla</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;&#8377; 109 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="misti-doi" class="card">
+                        <img src="gallery/misti doi img.jpg" alt="misti-doi-img">
+                        <a href="#" class="name">Misti Doi</a>
+                        <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;&#8377; 99 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div id="snacks">
+                <p style="color: #ff8c00;" class="food-type">Snacks</p>
+                <div class="line-one">
+                    <div id="samosa" class="card">
+                        <img src="gallery/samosa img.jpg" alt="samosa-img">
+                        <a href="#" class="name">Samosa</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                            &nbsp;&#8377; 49 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="kachori" class="card">
+                        <img src="gallery/Kachori img.jpg" alt="kachori-img">
+                        <a href="#" class="name">Kachori</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                            &nbsp;&#8377; 49 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="pani-puri" class="card">
+                        <img src="gallery/pani puri img.jpg" alt="pani-puri-img">
+                        <a href="#" class="name">Pani Puri</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                            &nbsp;&#8377; 59 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <br>
+                <div class="line-two">
+                    <div id="chhole-bhature" class="card">
+                        <img src="gallery/chhole bhature img.jpg" alt="chhole-bhature-img">
+                        <a href="#" class="name">Chhole Bhature</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 99 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="veg-burger" class="card">
+                        <img src="gallery/veg burger img.jpg" alt="veg-burger-img">
+                        <a href="#" class="name">Veg Burger</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 79
+                            /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="paneer-burger" class="card">
+                        <img src="gallery/paneer burger img.jpg" alt="paneer-burger-img">
+                        <a href="#" class="name">Paneer Burger</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 99 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div id="pizaas">
+                <p style="color: tomato;" class="food-type">Pizzas</p>
+                <div class="line-one">
+                    <div id="sausage-pizza" class="card">
+                        <img src="gallery/chicken_sausage_pizza_img.png" alt="sausage-pizza-img">
+                        <a href="#" class="name">Chicken Sausage Pizza</a>
+                        <span> &nbsp; &nbsp;&#8377; 299 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="margherita" class="card">
+                        <img src="gallery/Margherita-Pizza-img.jpg" alt="Margherita-Pizza-img">
+                        <a href="#" class="name">Margherita Pizza</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 259 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                    <div id="peri-peri" class="card">
+                        <img src="gallery/peri peri veg pizza img.jpeg" alt="peri-peri-img">
+                        <a href="#" class="name">Peri Peri Veg Pizza</a>
+                        <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&#8377; 289 /-</span>
+                        <br>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="about">
+            <a href="#">About Us</a>
+        </div>
+        <div class="offers">
+            <a href="#">Offers</a>
+        </div>
+        <div class="contact">
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
