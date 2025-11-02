@@ -132,13 +132,13 @@ for (let card of allCard) {
 
         if (cardName == "veg-biryani") {
             info_card.childNodes[5].innerText = "Fragrant basmati rice layered with spiced paneer and fresh veggies, slow-cooked for rich flavor.";
-            info_card.childNodes[3].src = "gallery/paneer-biryani_img.jpg";
+            info_card.childNodes[3].src = "gallery/paneer veg biryani.jpeg";
         } else if (cardName == "paneer-butter") {
             info_card.childNodes[5].innerText = "Soft paneer cubes in a creamy, buttery tomato gravy with aromatic spices.";
             info_card.childNodes[3].src = "gallery/paneer butter masala img.jpg";
         } else if (cardName == "chili-paneer") {
             info_card.childNodes[5].innerText = "Crispy paneer tossed in Indo-Chinese chilli sauce with peppers and onions.";
-            info_card.childNodes[3].src = "gallery/chili paneer img.jpg";
+            info_card.childNodes[3].src = "gallery/chilli paneer 2 img.jpeg";
         } else if (cardName == "mix-veg") {
             info_card.childNodes[5].innerText = "Seasonal vegetables cooked in a mildly spiced, flavourful garvy.";
             info_card.childNodes[3].src = "gallery/mix veg img.jpg";
@@ -157,19 +157,19 @@ for (let card of allCard) {
             info_card.childNodes[3].src = "gallery/chicken tandoori img.jpg";
         } else if (cardName == "mutton-roganjosh") {
             info_card.childNodes[5].innerText = "Traditional slow-cooked Kashmiri mutton curry with aromatic spices.";
-            info_card.childNodes[3].src = "gallery/mutton rogan josh.jpg";
+            info_card.childNodes[3].src = "gallery/mutton rogan josh img.jpg";
         } else if (cardName == "egg-curry") {
             info_card.childNodes[5].innerText = "Boiled eggs in a flavourful spiced onion-tomato gravy.";
             info_card.childNodes[3].src = "gallery/egg curry img.jpeg";
         } else if (cardName == "mutton-biryani") {
             info_card.childNodes[5].innerText = "Layered basmati rice with tender mutton, slow-cooked with herbs & spices.";
-            info_card.childNodes[3].src = "gallery/mutton biryani img.jpg";
+            info_card.childNodes[3].src = "gallery/mutton biryani img.jpeg";
         } else if (cardName == "fish-curry") {
             info_card.childNodes[5].innerText = "Fresh fish cooked in a tangy, spiced curry with coastal flavours.";
-            info_card.childNodes[3].src = "gallery/fish curry image.jpg";
+            info_card.childNodes[3].src = "gallery/fish curry img.jpeg";
         } else if (cardName == "mutton-curry") {
             info_card.childNodes[5].innerText = "Tender mutton cooked in a rich, spicy traditional gravy.";
-            info_card.childNodes[3].src = "gallery/mutton curry img.jpeg";
+            info_card.childNodes[3].src = "gallery/mutton curry img.jpg";
         }
 
         // Sweets Section
@@ -186,13 +186,13 @@ for (let card of allCard) {
         }
         else if (cardName == "kala-jamun") {
             info_card.childNodes[5].innerText = "Dark, rich gulab jamun with a caramelized outer layer and soft center.";
-            info_card.childNodes[3].src = "gallery/kala jamun.jpg";
+            info_card.childNodes[3].src = "gallery/kala jamun img.jpg";
         } else if (cardName == "rasgulla") {
             info_card.childNodes[5].innerText = "Spongy, syrup-soaked Bengali sweet that melts in your mouth.";
-            info_card.childNodes[3].src = "gallery/rash gulla img.jpg";
+            info_card.childNodes[3].src = "gallery/rosgulla img.jpg";
         } else if (cardName == "misti-doi") {
             info_card.childNodes[5].innerText = "Traditional sweet Bengali yogurt with a creamy caramel flavour.";
-            info_card.childNodes[3].src = "gallery/misti doi img.jpg";
+            info_card.childNodes[3].src = "gallery/misti doi img.jpeg";
         }
 
         // Snacks Section
@@ -202,10 +202,10 @@ for (let card of allCard) {
             info_card.childNodes[3].src = "gallery/samosa img.jpg";
         } else if (cardName == "kachori") {
             info_card.childNodes[5].innerText = "Flaky, deep-fried snack stuffed with spicy lentil masala.";
-            info_card.childNodes[3].src = "gallery/Kachori img.jpg";
+            info_card.childNodes[3].src = "gallery/kachori img.jpg";
         } else if (cardName == "pani-puri") {
             info_card.childNodes[5].innerText = "Crispy puris filled with spicy mint water, tangy chutney & potato mix.";
-            info_card.childNodes[3].src = "gallery/pani puri img.jpg";
+            info_card.childNodes[3].src = "gallery/Pani Puri img.jpeg";
         } else if (cardName == "chhole-bhature") {
             info_card.childNodes[5].innerText = "Fluffy bhaturas served with rich and spicy chickpea curry.";
             info_card.childNodes[3].src = "gallery/chhole bhature img.jpg";
@@ -221,10 +221,10 @@ for (let card of allCard) {
 
         else if (cardName == "sausage-pizza") {
             info_card.childNodes[5].innerText = "Loaded with juicy chicken sausages, cheese & Italian herbs.";
-            info_card.childNodes[3].src = "gallery/chicken_sausage_pizza_img.png";
+            info_card.childNodes[3].src = "gallery/chicken sausage pizza img.jpg";
         } else if (cardName == "margherita") {
             info_card.childNodes[5].innerText = "Classic cheese pizza with fresh basil & signature tomato sauce.";
-            info_card.childNodes[3].src = "gallery/Margherita-Pizza-img.jpg";
+            info_card.childNodes[3].src = "gallery/margherita pizza img.jpeg";
         } else if (cardName == "peri-peri") {
             info_card.childNodes[5].innerText = "Veggies and cheese topped with spicy peri-peri seasoning tomato sauce.";
             info_card.childNodes[3].src = "gallery/peri peri veg pizza img.jpeg";
